@@ -11,7 +11,9 @@ def percent_missing(db):
     missingCount = df.isnull().sum()
     totalMissing = missingCount.sum()
 
-    return(totalMissing)
+    # Calculate percentage of missing values
+    print("The TellCo dataset contains", round(((totalMissing/totalCells) * 100), 2), "%", "missing values.")
+
 
 def handle_missing_values(db: pd.DataFrame) -> pd.DataFrame:
     perc = 30.0
@@ -32,7 +34,8 @@ def fill_missing_values(mod_db: pd.DataFrame) -> pd.DataFrame:
     for c in num_type:
         mod_db[c] = mod_db[c].fillna(mod_db[c].median())
 
-    return mod_db  
+    return mod_db
+    
 
 if __name__== '__main__':
     path = "Week1_challenge_data_source (1).csv"

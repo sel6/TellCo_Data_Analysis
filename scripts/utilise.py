@@ -16,10 +16,11 @@ def convert_bytes_to_megabytes(db, bytes_data):
     
     return db[bytes_data]
 
-pd.options.display.float_format = format_float
 
-if __name__== '__main__':
-    path = "Week1_challenge_data_source (1).csv"
-    db = pd.read_csv(path)
-    print("Aggregates per user number of XDR sessions")
-    no_sessions = find_agg(db, 'MSISDN/Number', 'count', "Number of session per user", 10)
+def find_total_volume(db, app_names):
+    """ This function calculates the total data volume each application"""
+    for app_name in app_names:
+        db[app_name+' total volume (Bytes)'] = db[app_name+' DL (Bytes)']+db[app_name+' UL (Bytes)']
+    return db
+
+pd.options.display.float_format = format_float

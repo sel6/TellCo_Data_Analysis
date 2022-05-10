@@ -1,3 +1,5 @@
+import pandas as pd
+
 def format_float(value):
     return f'{value:,.2f}'
 

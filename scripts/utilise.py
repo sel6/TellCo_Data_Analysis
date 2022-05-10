@@ -16,13 +16,6 @@ def convert_bytes_to_megabytes(db, bytes_data):
     
     return db[bytes_data]
 
-
-def find_total_volume(db, app_names):
-    """ This function calculates the total data volume each application"""
-    for app_name in app_names:
-        db[app_name+' total volume (Bytes)'] = db[app_name+' DL (Bytes)']+db[app_name+' UL (Bytes)']
-    return db
-
 pd.options.display.float_format = format_float
 
 if __name__== '__main__':

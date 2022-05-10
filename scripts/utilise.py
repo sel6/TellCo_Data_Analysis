@@ -1,5 +1,3 @@
-import pandas as pd
-
 def format_float(value):
     return f'{value:,.2f}'
 
@@ -10,9 +8,9 @@ def find_agg(db:pd.DataFrame, agg_column:str, agg_metric:str, col_name:str, top:
     
     return new_db
 
-def convert_bytes_to_megabytes(df, bytes_data):
+def convert_bytes_to_megabytes(db, bytes_data):
     megabyte = 1*10e+5
-    db[bytes_data] = df[bytes_data] / megabyte
+    db[bytes_data] = db[bytes_data] / megabyte
     
     return db[bytes_data]
 

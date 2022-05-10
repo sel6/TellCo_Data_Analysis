@@ -7,8 +7,8 @@ def load_data(path):
     return db
 
 def percent_missing(db):
-    totalCells = np.product(df.shape)
-    missingCount = df.isnull().sum()
+    totalCells = np.product(db.shape)
+    missingCount = db.isnull().sum()
     totalMissing = missingCount.sum()
 
     # Calculate percentage of missing values

@@ -1,5 +1,6 @@
 import seaborn as sns
 import matplotlib.pyplot as plt
+import pandas as pd
 
 def plot_hist(df:pd.DataFrame, column:str, color:str)->None:
     # plt.figure(figsize=(15, 10))

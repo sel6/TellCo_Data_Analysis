@@ -35,7 +35,7 @@ setup(
     packages=find_packages(include=['scripts', 'scripts.*']),
     test_suite='tests',
     tests_require=test_requirements,
-    url='https://github.com/10xac/PythonPackageStructure',
+    url='https://github.com/sel6/TellCo_Data_Analysis',
     version='0.1.0',
     zip_safe=False,
 )

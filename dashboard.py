@@ -6,7 +6,7 @@ import pickle
 from sklearn.preprocessing import StandardScaler
 from PIL import Image
 # setting path to file and folders
-user_df= pd.read_csv("./data/teleco_user_sat_data.csv")
+user_df= pd.read_csv("./data/satisfication.csv")
 
 st.title("Satisfaction level?")
 

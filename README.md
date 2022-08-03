@@ -1,9 +1,120 @@
-# TellCo_Data_Analysis
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-You are working for a wealthy investor that specialises in purchasing assets that are undervalued.  This investor’s due diligence on all purchases includes a detailed analysis of the data that underlies the business, to try to understand the fundamentals of the business and especially to identify opportunities to drive profitability by changing the focus of which products or services are being offered.
 
-Your last role with this investor saw you do a rich analysis of a delivery company and you helped to identify that delivery to university students was the most profitable route to follow, and your analysis helped the investor purchase this delivery company and ramp up profits by 25% within 6 months through focussing on the most profitable aspect of the business.  This was driven by university students always being hungry, awake at all hours, willing to purchase from a limited food menu and tending to live within a small geographical area.
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/sel6/TellCo_Data_Analysis">
+  </a>
+  <h1 align="center">Tellco Data Analysis</h1>
+  <p align="center">
+    <a href="https://github.com/sel6/TellCo_Data_Analysis">Report Bug</a>
+    ·
+    <a href="https://github.com/sel6/TellCo_Data_Analysis/issues">Request Feature</a>
+    .
+  </p>
+</p>
 
-The investor is interested in purchasing TellCo, an existing mobile service provider in the Republic of Pefkakia.  TellCo’s current owners have been willing to share their financial information but have never employed anyone to look at their data that is generated automatically by their systems.
 
-Your employer wants you to provide a report to analyse opportunities for growth and make a recommendation on whether TellCo is worth buying or selling.  You will do this by analysing a telecommunication dataset that contains useful information about the customers & their activities on the network. You will deliver insights you managed to extract to your employer through an easy to use web based dashboard and a written report. 
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+The objective of this project was to perform user analytics in a telecommunication industry. An investor wants to buy a telecom company but inorder to do so they need to decide if it's profitable. User overview, User engagement, User experience and User satisfaction analysis were done to come to conclusion
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+### Prerequisites
+
+* pandas
+* numpy
+* matplotlib
+  
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/sel6/Datawarehouse_change
+   ```
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+<!-- CONTACT -->
+## Contact
+
+Selam Ayehubirhan - kabodshekinah@gmail.com
+
+Project Link: [https://github.com/sel6/Datawarehouse_change](https://github.com/sel6/Datawarehouse_change)
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [10 Academy](https://www.10academy.org/)
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/sel6/Tellco_Data_Analysis.svg?style=for-the-badge
+[contributors-url]: https://github.com/sel6/Tellco_Data_Analysis/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/sel6/Tellco_Data_Analysis.svg?style=for-the-badge
+[forks-url]: https://github.com/sel6/Tellco_Data_Analysis/network/members
+[stars-shield]: https://img.shields.io/github/stars/sel6/Tellco_Data_Ananlysis.svg?style=for-the-badge
+[stars-url]: https://github.com/sel6/Tellco_Data_Analysis/stargazers
+[issues-shield]: https://img.shields.io/github/issues/sel6/Tellco_Data_Analysis.svg?style=for-the-badge
+[issues-url]: https://github.com/sel6/Tellco_Data_Analysis/issues
+[license-shield]: https://img.shields.io/github/license/sel6/Tellco_Data_Analysis.svg?style=for-the-badge
+[license-url]: https://github.com/sel6/Tellco_Data_Analysis/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/selam-ayehubirhan-42909617a//
+
